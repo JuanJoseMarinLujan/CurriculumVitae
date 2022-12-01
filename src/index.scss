@@ -1,0 +1,14 @@
+/* ========== SASS Base ========== */
+@use "./sass/base/resets";
+@use "./sass/base/base";
+
+/* ========== SASS Components ========== */
+@use "./sass/components/header.scss";
+@use "./sass/components/home.scss";
+@use "./sass/components/about.scss";
+@use "./sass/components/skills.scss";
+@use "./sass/components/experience.scss";
+@use "./sass/components/work.scss";
+@use "./sass/components/contact.scss";
+@use "./sass/components/footer.scss";
+@use "./sass/components/scrollUp.scss";
