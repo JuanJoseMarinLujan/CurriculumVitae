@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Juan Jose Marin Lujan",
+    "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/about.jpeg?alt=media&token=efef479a-a39e-4549-804b-b450a942715d",
+    "socialmedia": {
+      "instagram": "https://www.instagram.com/juanjosemarinlujan",
+      "linkedin": "https://www.linkedin.com/in/juanjosemarinlujan",
+      "github": "https://github.com/JuanJoseMarinLujan"
+    },
+    "home": {
+      "speciality": "Desarrollador Web",
+      "description": "Frontend, Backend, Base de Datos, Infraestructura y Redes."
+    },
+    "about": {
+      "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/about.jpeg?alt=media&token=efef479a-a39e-4549-804b-b450a942715d",
+      "experience": "0 Año",
+      "projects": "1+",
+      "support": "Disponible 24/7",
+      "description": "Soy de la ciudad de Medellín, apasionado de la tecnología y la música, con mucha motivación y expectativas para aprender y abrirme un camino en el ámbito laboral de la tecnología.",
+      "curriculumvitae": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/CV-JuanJoseMarinLujan.pdf?alt=media&token=dfc61de5-3061-48ac-bbe9-b25e5d8ca238"
+    },
+    "skills": [
+      {
+        "title": "Frontend",
+        "skills": [
+          { "title": "HTML", "level": "Avanzado" },
+          { "title": "CSS", "level": "Avanzado" },
+          { "title": "Saas", "level": "Avanzado" },
+          { "title": "Tailwind", "level": "Avanzado" },
+          { "title": "JavaScript", "level": "Avanzado" },
+          { "title": "ReactJS", "level": "Avanzado" }
+        ]
+      },
+      {
+        "title": "Backend",
+        "skills": [
+          { "title": "Java", "level": "Avanzado" },
+          { "title": "Spring Boot", "level": "Intermedio" },
+          { "title": "NodeJs", "level": "Intermedio" },
+          { "title": "MySQL", "level": "Avanzado" },
+          { "title": "Firebase", "level": "Avanzado" },
+          { "title": "MongoDB", "level": "Intermedio" },
+          { "title": "Postman", "level": "Intermedio" },
+          { "title": "Git", "level": "Avanzado" }
+          
+        ]
+      },
+      {
+        "title": "DevOps",
+        "skills": [
+          { "title": "EC2", "level": "Intermedio" },
+          { "title": "S3", "level": "Intermedio" },
+          { "title": "RDS", "level": "Intermedio" }
+        ]
+      },
+      {
+        "title": "Diseño",
+        "skills": [
+          { "title": "PhotoShop", "level": "Avanzado" },
+          { "title": "Illustrator", "level": "Intermedio" },
+          { "title": "PremiePro", "level": "Avanzado" },
+          { "title": "AfterEffects", "level": "Intermedio" }
+        ]
+      },
+      {
+        "title": "Metodologías Agiles",
+        "skills": [
+          { "title": "Scrum", "level": "Avanzado" },
+          { "title": "Kanban", "level": "Avanzado" }
+        ]
+      },
+      {
+        "title": "Otras Habilidades",
+        "skills": [
+          { "title": "Excel", "level": "Avanzado" },
+          { "title": "Word", "level": "Avanzado" },
+          { "title": "PowerPoint", "level": "Avanzado" },
+          { "title": "SketchUp", "level": "Intermedio" },
+          { "title": "AutoCAD", "level": "Intermedio" }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "university": "ITM",
+        "title": "Informatica Musical",
+        "initialyear": "2016",
+        "finalyear": "2019",
+        "city": "Medellin",
+        "type": "education"
+      },
+      {
+        "company": "Teatro Pablo Tobon Uribe",
+        "role": "Tecnico de Sonido e Iluminacion - Practicas",
+        "initialyear": "2019",
+        "finalyear": "2019",
+        "city": "Medellin",
+        "type": "labour"
+      },
+      {
+        "company": "Casa Teatro El Poblado",
+        "role": "Tecnico de Sala",
+        "initialyear": "2021",
+        "finalyear": "2022",
+        "city": "Medellin",
+        "type": "labour"
+      },
+      {
+        "university": "Coder House",
+        "title": "Desarrollo Web Full Stack",
+        "initialyear": "2022",
+        "finalyear": "2023",
+        "city": "Argentina",
+        "type": "education"
+      },
+      {
+        "university": "Digital House",
+        "title": "Certified Tech Developer",
+        "initialyear": "2022",
+        "finalyear": "2023",
+        "city": "Argentina",
+        "type": "education"
+      }
+    ],
+    "portfolio": [
+      ["Todo", "Web", "App"],
+      [
+        {
+          "title": "Manage Web",
+          "url": "https://juanjosemarinlujan.github.io/Manage",
+          "category": "Web",
+          "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork1.jpg?alt=media&token=d3456b26-b01d-4bf2-a2ce-406be4d73daf"
+        },
+        {
+          "title": "Time Tacking Dashboard",
+          "url": "https://juanjosemarinlujan.github.io/TimeTackingDashboard",
+          "category": "Web",
+          "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork2.jpg?alt=media&token=8810c152-b60d-4c1e-b18b-f65805880dfc"
+        },
+        {
+          "title": "Calculadora Web",
+          "url": "https://juanjosemarinlujan.github.io/Calculadora1",
+          "category": "Web",
+          "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork3.jpg?alt=media&token=719f8ae6-d718-41e7-b151-01992ec4b0cd"
+        },
+        {
+          "title": "To Do Web",
+          "url": "https://juanjosemarinlujan.github.io/To-Do1",
+          "category": "Web",
+          "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork4.jpg?alt=media&token=c6f535ee-2c65-43b5-9d4a-98cd9a07f51b"
+        }
+      ]
+    ],
+    "contact": [
+      {
+        "phone": "+57 304 620 64 03",
+        "url": "https://api.whatsapp.com/send/?phone=573046206403&text&type=phone_number&app_absent=0"
+      },
+      {
+        "username": "juanjosem.97",
+        "url": "https://m.me/juanjose.m97"
+      }
+    ]
+  }
+]
