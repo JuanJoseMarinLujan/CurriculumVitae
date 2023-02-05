@@ -5,24 +5,24 @@ import { useGlobalContext } from "../../context/GlobalContext";
 function Social() {
   const { socialMedia } = useGlobalContext();
   return (
-    <div className="home__social">
+    <div className="home__social w-10 grid justify-center items-center gap-y-4 lg:gap-y-10">
       <a
         href={socialMedia.instagram}
-        className="home__social-icon"
+        className="home__social-icon text-3xl text-titleColor hover:text-instgrmColor hover:text-[28px]"
         target="_blank"
       >
         <i className="uil uil-instagram instagram"></i>
       </a>
       <a
         href={socialMedia.linkedin}
-        className="home__social-icon"
+        className="home__social-icon text-3xl text-titleColor hover:text-lnkdnColor hover:text-[28px]"
         target="_blank"
       >
         <i className="uil uil-linkedin-alt linkedin"></i>
       </a>
       <a
         href={socialMedia.github}
-        className="home__social-icon"
+        className="home__social-icon text-3xl font-bold text-titleColor hover:text-gthbColor hover:text-[28px]"
         target="_blank"
       >
         <i className="uil uil-github-alt github"></i>

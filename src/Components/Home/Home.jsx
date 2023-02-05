@@ -6,14 +6,18 @@ import ScrollDown from "../Scrolls/ScrollDown";
 import { useGlobalContext } from "../../context/GlobalContext";
 
 function Home() {
-  const { user } = useGlobalContext();  
+  const { user } = useGlobalContext();
 
   return (
-    <section className="home section" id="home">
-      <div className="home__container container grid">
-        <div className="home__content grid">
+    <section className="home sctn" id="home">
+      <div className="home__container cntinr grd">
+        <div className="home__content grd grid-cols-[0.5fr_3fr] lg:grid-cols-[100px_repeat(2,_1fr)] dt:grid-cols-[116px_repeat(2,_1fr)] gap-x-5 dt:gap-x-8 items-center p-5">
           <Social />
-          <img src={user.img} alt="" className="home__img" />
+          <img
+            src={user.img}
+            alt=""
+            className="home__img w-44 sm:w-52 lg:w-64 dt:w-80 h-44 sm:h-52 lg:h-64 dt:h-80 border order-[initial] dt:order-1 border-[solid_9px_rgba(8,8,8,0.655)] justify-self-[initial] dt:justify-self-center shadow-[inset_0_0_0_6px_rgba(8,8,8,0.655)] lg:shadow-[inset_0_0_0_8px_rgba(8,8,8,0.655)]"
+          />
           <Data />
         </div>
         <ScrollDown />
