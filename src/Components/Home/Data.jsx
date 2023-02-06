@@ -5,23 +5,22 @@ import { useGlobalContext } from "../../context/GlobalContext";
 function Data() {
   const { user, home } = useGlobalContext();
   return (
-    <div className="home__data col-[1/3] dt:col-auto grid gap-3 lg:ml-4">
-      <div className="flex justify-start items-center mb-4">
-        <h1 className="home__title text-4xl dt:text-6xl">
+    <div className="col-[1/3] dt:col-auto grid gap-5">
+      <div className="flex justify-start items-center">
+        <h1 className="text-[2rem] dt:text-5xl">
           {user.name}{" "}
           <i class="fa-sharp fa-solid fa-yin-yang text-titleColor text-3xl dt:text-5xl"></i>
         </h1>
       </div>
-      <h3 className="home__subtitle">
+      <h3 className="home__subtitle sm:text-md">
         {home.speciality}
       </h3>
-      <p className="home__description max-w-[initial] dt:max-w-[400px] mb-10 dt:mb-8">
+      <p className="max-w-[initial] dt:max-w-[400px] mb-10">
         {home.description}
       </p>
-      <a href="#contact" className="bttn bttn-flex w-48">
+      <a href="#contact" className="bttn bttn-flex">
         Escribeme
         <svg
-          className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
