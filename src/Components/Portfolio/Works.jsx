@@ -27,22 +27,22 @@ function Works() {
 
   return (
     <div>
-      <div className="work__filters">
-        {categories.map((item, index) => {
+      <div className="work__filters flex justify-center items-center gap-5 mb-6">
+        {categories?.map((item, index) => {
           return (
             <span
               onClick={(e) => {
                 handleClick(e, index);
               }}
               key={index}
-              className={`${active === index ? "active-work" : ""} work__item`}
+              className={`${active === index ? "active-work bg-titleDarkColor text-bodyColor" : ""} work__item cursor-pointer text-titleColor py-1 px-3 rounded-lg capitalize`}
             >
               {item}
             </span>
           );
         })}
       </div>
-      <div className="work__container container grid">
+      <div className="work__container cntnr grid grid-cols-1 md:grid-cols-[max-content] lg:grid-cols-[repeat(2,_max-content)] gap-5 lg:gap-12 justify-center">
         {projects.map((item, index) => {
           return <WorkCard key={index} item={item} />;
         })}

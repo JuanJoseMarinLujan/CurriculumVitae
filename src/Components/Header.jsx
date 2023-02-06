@@ -24,10 +24,10 @@ function Header() {
 
         <div
           className={`${
-            toggleMenu ? "show-menu bottom-0" : "-bottom-[100%]"
+            toggleMenu ? "bottom-0" : "-bottom-[100%]"
           } nav__menu fixed lg:static left-0 w-full h-auto lg:w-auto bg-bodyColor lg:bg-opacity-0 pt-8 px-1 md:px-6 pb-16 lg:p-0 shadow-[0_-1px_4px_rgba(0,0,0,0.15)] lg:shadow-none rounded-t-3xl duration-[600ms]`}
         >
-          <ul className="nav__list grd lg:flex lg:gap-x-6 grid-cols-3 lg:grid-cols-1 md:gap-8">
+          <ul className="nav__list grid gap-6 lg:flex lg:gap-x-6 grid-cols-3 lg:grid-cols-1 md:gap-8">
             <li className="nav__item">
               <a
                 href="#home"

@@ -16,7 +16,7 @@ function Home() {
           <img
             src={user.img}
             alt=""
-            className="home__img w-44 sm:w-52 lg:w-64 dt:w-80 h-44 sm:h-52 lg:h-64 dt:h-80 border order-[initial] dt:order-1 border-[solid_9px_rgba(8,8,8,0.655)] justify-self-[initial] dt:justify-self-center shadow-[inset_0_0_0_6px_rgba(8,8,8,0.655)] lg:shadow-[inset_0_0_0_8px_rgba(8,8,8,0.655)]"
+            className="home__img w-44 sm:w-52 lg:w-56 dt:w-80 h-44 sm:h-52 lg:h-w-56 dt:h-80 border order-[initial] dt:order-1 justify-self-[initial] dt:justify-self-center"
           />
           <Data />
         </div>

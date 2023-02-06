@@ -8,44 +8,44 @@ function Form() {
   };
   return (
     <div className="contact__content">
-      <h3 className="contact__title">Escríbeme un email</h3>
+      <h3 className="contact__title text-center text-xl font-medium mb-6">Escríbeme un email</h3>
 
-      <form onSubmit={handleSubmit(onSubmit)} className="contact__form">
-        <div className="contact__form-div">
-          <label className="contact__form-tag">Nombre</label>
+      <form onSubmit={handleSubmit(onSubmit)} className="contact__form w-full mt-0 mx-auto lg:w-96">
+        <div className="contact__form-div relative mb-8 h-16">
+          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">Nombre</label>
           <input
             type="text"
             name="name"
-            className="contact__form-input"
+            className="contact__form-input absolute top-0 left-0 w-full h-full bg-none text-textColor outline-none rounded-xl p-6 z-[1]"
             placeholder="Escribe tu nombre"
             {...register("name")}
           />
         </div>
 
-        <div className="contact__form-div">
-          <label className="contact__form-tag">Email</label>
+        <div className="contact__form-div relative mb-8 h-16">
+          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">Email</label>
           <input
             type="email"
             name="email"
-            className="contact__form-input"
+            className="contact__form-input absolute top-0 left-0 w-full h-full bg-none text-textColor outline-none rounded-xl p-6 z-[1]"
             placeholder="Escribe tu email"
             {...register("email")}
           />
         </div>
 
-        <div className="contact__form-div contact_form-area">
-          <label className="contact__form-tag">Mensaje</label>
+        <div className="contact__form-div relative mb-8 contact_form-area h-44 ">
+          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">Mensaje</label>
           <textarea
             name="message"
             cols="30"
             rows="10"
-            className="contact__form-input"
+            className="contact__form-input absolute top-0 left-0 w-full h-full bg-none text-textColor outline-none rounded-xl p-6 z-[1] resize-none"
             placeholder="Escribe tu mensaje"
             {...register("message")}
           />
         </div>
 
-        <button className="button button--flex" type="submit">
+        <button className="bttn bttn-flex" type="submit">
           Enviar Mensaje
           <svg
             className="button__icon"

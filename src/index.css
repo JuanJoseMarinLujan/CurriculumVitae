@@ -39,7 +39,7 @@
 @layer components {
   /*=============== REUSABLE CSS CLASSES ===============*/
   .sctn {
-    @apply pt-36 px-4 flex justify-center items-center;
+    @apply pt-28 pb-8 px-4 flex flex-col justify-center items-center;
   }
   .sctn-title {
     @apply text-4xl text-titleColor;
@@ -130,4 +130,35 @@
 
 .about__box {
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.skills__content {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.experience__line {
+  transform: translate(6px, 7px);
+}
+
+.work__card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.work__button:hover {
+  transform: translateX(0.25rem);
+}
+
+.contact__card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact__button:hover .contact__button-icon {
+  transform: translate(0.25rem);
+}
+.contact__form-input {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }

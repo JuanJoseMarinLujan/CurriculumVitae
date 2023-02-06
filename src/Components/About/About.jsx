@@ -6,7 +6,7 @@ import { useGlobalContext } from "../../context/GlobalContext";
 function About() {
   const { about } = useGlobalContext();
   return (
-    <section id="about" className="sctn flex-col">
+    <section id="about" className="sctn">
       <div className="cntnr">
         <div className=" flex flex-col items-center mb-4">
           <h2 className="">Sobre mi</h2>
