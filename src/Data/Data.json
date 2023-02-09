@@ -16,8 +16,8 @@
       "experience": "0 Año",
       "projects": "1+",
       "support": "Disponible 24/7",
-      "description": "Soy de la ciudad de Medellín, apasionado de la tecnología y la música, con mucha motivación y expectativas para aprender y abrirme un camino en el ámbito laboral de la tecnología.",
-      "curriculumvitae": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/CV-JuanJoseMarinLujan.pdf?alt=media&token=dfc61de5-3061-48ac-bbe9-b25e5d8ca238"
+      "description": "Desarrollador tecnológico certificado, graduado de Digital House con conocimientos avanzados en Full Stack, además de demostrar muy buenas habilidades de liderazgo,  comunicación y trabajo en equipo, enfocado en asumir nuevos retos que me permitan evolucionar mis habilidades y perfil profesional, fiel apasionado de la tecnología y la música.",
+      "curriculumvitae": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Curr%C3%ADculum%20Vitae.pdf?alt=media&token=f137e6c4-cfa0-4318-babb-0eb3f5387317"
     },
     "skills": [
       {
@@ -42,7 +42,6 @@
           { "title": "MongoDB", "level": "Intermedio" },
           { "title": "Postman", "level": "Intermedio" },
           { "title": "Git", "level": "Avanzado" }
-          
         ]
       },
       {
@@ -125,6 +124,12 @@
     "portfolio": [
       ["Todo", "Web", "App"],
       [
+        {
+          "title": "69 Store",
+          "url": "https://juanjosemarinlujan.github.io/69Store",
+          "category": "Web",
+          "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2F69%20Store.png?alt=media&token=df62cfc3-92af-48e0-85e5-799cb0e0b6fc"
+        },
         {
           "title": "Manage Web",
           "url": "https://juanjosemarinlujan.github.io/Manage",
