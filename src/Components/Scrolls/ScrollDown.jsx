@@ -3,7 +3,10 @@ import React from "react";
 function ScrollDown() {
   return (
     <div className="home__scroll hidden lg:flex lg:ml-4 dt:ml-40">
-      <a href="#about" className="home__scroll-button flex justify-center items-center">
+      <a
+        href="#about"
+        className="home__scroll-button flex justify-center items-center"
+      >
         <svg
           width="32px"
           height="32px"
@@ -39,7 +42,9 @@ function ScrollDown() {
             }}
           ></path>
         </svg>
-        <span className="home__scroll-name text-titleColor font-medium mr-1 ml-0.5">Hacia Abajo</span>
+        <span className="home__scroll-name text-titleColor font-medium mr-1 ml-0.5">
+          Hacia Abajo
+        </span>
         <i className="uil uil-arrow-down home__scroll-arrow text-xl text-titleColor"></i>
       </a>
     </div>

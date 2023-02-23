@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from "react";
 import WorkCard from "./WorkCard";
 
-import { useGlobalContext } from "../../context/GlobalContext";
+import User from "../../Data/Data.json";
 
 function Works() {
-  const { categories, items } = useGlobalContext();
   const [item, setItem] = useState({ name: "todo" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
     if (item.name === "todo") {
-      setProjects(items);
+      setProjects(User.portfolio.projects);
     } else {
-      const newProjects = items.filter((project) => {
+      const newProjects = User.portfolio.projects.filter((project) => {
         return project.category.toLowerCase() === item.name;
       });
       setProjects(newProjects);
@@ -28,7 +27,7 @@ function Works() {
   return (
     <div>
       <div className="work__filters flex justify-center items-center gap-5 mb-6">
-        {categories?.map((item, index) => {
+        {User.portfolio.categorys.map((item, index) => {
           return (
             <span
               onClick={(e) => {
@@ -42,7 +41,7 @@ function Works() {
           );
         })}
       </div>
-      <div className="work__container cntnr grid grid-cols-1 md:grid-cols-[max-content] lg:grid-cols-[repeat(2,_max-content)] gap-5 lg:gap-12 justify-center">
+      <div className="work__container cntnr grid grid-cols-1 md:grid-cols-[max-content] lg:grid-cols-[repeat(2,_max-content)] dt:grid-cols-[repeat(3,_max-content)] gap-5 lg:gap-12 justify-center">
         {projects.map((item, index) => {
           return <WorkCard key={index} item={item} />;
         })}

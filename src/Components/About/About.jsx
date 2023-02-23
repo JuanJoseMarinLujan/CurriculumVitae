@@ -1,30 +1,31 @@
 import React from "react";
 import Info from "./Info";
 
-import { useGlobalContext } from "../../context/GlobalContext";
+import User from "../../Data/Data.json";
 
 function About() {
-  const { about } = useGlobalContext();
   return (
     <section id="about" className="sctn">
-      <div className="cntnr">
+      <div className="cntnr grid">
         <div className=" flex flex-col items-center mb-4">
-          <h2 className="">Sobre mi</h2>
+          <h2>Sobre mi</h2>
           <span className="text-xs">Introducción</span>
         </div>
 
-        <div className="flex flex-col dt:flex-row dt:gap-20 justify-center items-center">
+        <div className="flex flex-col dt:flex-row dt:gap-2 justify-around">
           <img
-            src={about.img}
+            src={User.about.img}
             alt=""
             width="220"
-            className="about__img rounded-3xl my-4 dt:w-[350px]"
+            className="about__img rounded-3xl my-4 dt:w-[450px]"
           />
           <div className="flex flex-col items-center dt:items-start w-full max-w-md">
             <Info />
-            <p className="text-base text-center dt:text-justify my-6">{about.description}</p>
+            <p className="text-base text-center dt:text-justify my-2">
+              {User.about.description}
+            </p>
             <a
-              href={about.curriculumvitae}
+              href={User.about.curriculumvitae}
               target="_blank"
               className="bttn bttn-flex w-52 mt-5"
             >

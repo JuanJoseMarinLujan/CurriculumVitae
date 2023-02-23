@@ -1,4 +1,5 @@
 import React from "react";
+import User from "../Data/Data.json";
 
 function Footer() {
   return (
@@ -36,21 +37,21 @@ function Footer() {
 
         <div className="footer__social flex justify-center items-center gap-5">
           <a
-            href="https://www.instagram.com/juanjosemarinlujan"
+            href={User.socialmedia.instagram}
             className="footer__social-link instagram text-xl lg:text-2xl text-containerColor bg-titleColor p-1 lg:p-2 inline-flex w-10 h-10 justify-center items-center rounded hover:bg-instgrmColor hover:text-[22px]"
             target="_blank"
           >
             <i className="uil uil-instagram"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/juanjosemarinlujan"
+            href={User.socialmedia.linkedin}
             className="footer__social-link linkedin text-xl lg:text-2xl text-containerColor bg-titleColor p-1 lg:p-2 inline-flex w-10 h-10 justify-center items-center rounded hover:bg-lnkdnColor hover:text-[22px]"
             target="_blank"
           >
             <i className="uil uil-linkedin-alt"></i>
           </a>
           <a
-            href="https://github.com/JuanJoseMarinLujan"
+            href={User.socialmedia.github}
             className="footer__social-link github text-xl lg:text-2xl text-containerColor bg-titleColor p-1 lg:p-2 inline-flex w-10 h-10 justify-center items-center rounded hover:bg-gthbColor hover:text-[22px]"
             target="_blank"
           >

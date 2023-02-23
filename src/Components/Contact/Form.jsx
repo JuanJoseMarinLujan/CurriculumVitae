@@ -1,47 +1,94 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 
 function Form() {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
+  const form = useRef();
+
   const onSubmit = (data) => {
     console.log(data);
+    emailjs
+      .sendForm(
+        "service_2lyu08s",
+        "template_azvgviu",
+        form.current,
+        "Zf8puMxHYMCMwLh9c"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    reset();
   };
   return (
     <div className="contact__content">
-      <h3 className="contact__title text-center text-xl font-medium mb-6">Escríbeme un email</h3>
+      <h3 className="contact__title text-center text-xl font-medium mb-6">
+        Escríbeme un email
+      </h3>
 
-      <form onSubmit={handleSubmit(onSubmit)} className="contact__form w-full mt-0 mx-auto lg:w-96">
+      <form
+        ref={form}
+        onSubmit={handleSubmit(onSubmit)}
+        className="contact__form w-full mt-0 mx-auto lg:w-96"
+      >
         <div className="contact__form-div relative mb-8 h-16">
-          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">Nombre</label>
+          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
+            Nombre
+          </label>
           <input
             type="text"
             name="name"
             className="contact__form-input absolute top-0 left-0 w-full h-full bg-none text-textColor outline-none rounded-xl p-6 z-[1]"
             placeholder="Escribe tu nombre"
-            {...register("name")}
+            {...register("name", {
+              required: true,
+              maxLength: 50,
+              minLength: 2,
+            })}
           />
         </div>
 
         <div className="contact__form-div relative mb-8 h-16">
-          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">Email</label>
+          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
+            Email
+          </label>
           <input
             type="email"
             name="email"
             className="contact__form-input absolute top-0 left-0 w-full h-full bg-none text-textColor outline-none rounded-xl p-6 z-[1]"
             placeholder="Escribe tu email"
-            {...register("email")}
+            {...register("email", {
+              required: true,
+              pattern: {
+                value:
+                  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                message:
+                  "Por favor introduzca una dirección de correo electrónico válida",
+              },
+            })}
           />
         </div>
 
         <div className="contact__form-div relative mb-8 contact_form-area h-44 ">
-          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">Mensaje</label>
+          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
+            Mensaje
+          </label>
           <textarea
             name="message"
             cols="30"
             rows="10"
             className="contact__form-input absolute top-0 left-0 w-full h-full bg-none text-textColor outline-none rounded-xl p-6 z-[1] resize-none"
             placeholder="Escribe tu mensaje"
-            {...register("message")}
+            {...register("message", {
+              required: true,
+              maxLength: 250,
+              minLength: 2,
+            })}
           />
         </div>
 

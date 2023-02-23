@@ -2,10 +2,9 @@ import React from "react";
 
 import SkillsCard from "./SkillsCard";
 
-import { useGlobalContext } from "../../context/GlobalContext";
+import User from "../../Data/Data.json";
 
 function Skills() {
-  const { skills } = useGlobalContext();
 
   return (
     <section className="sctn" id="skills">
@@ -14,8 +13,8 @@ function Skills() {
         <span className="text-sm">Mi nivel tecnico</span>
       </div>
 
-      <div className="skills__container cntnr grid lg:grid-cols-2 gap-2 lg:gap-5">
-        {skills.map((item, index) => {
+      <div className="cntnr grid lg:grid-cols-2 gap-2 lg:gap-5 px-20">
+        {User.skills.map((item, index) => {
           return <SkillsCard key={index} item={item} />;
         })}
       </div>

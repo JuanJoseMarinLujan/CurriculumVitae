@@ -10,8 +10,11 @@ function ScrollUp() {
     }
   });
   return (
-    <a href="#" className="scrollUp">
-      <i className="uil uil-arrow-up scrollUp__icon"></i>
+    <a
+      href="#"
+      className="scrollUp fixed right-10 -bottom-[20%] bg-titleColor opacity-80 py-[0.3rem] px-2 rounded-md z-10 hover:bg-titleDarkColor lg:right-6 lg:py-1 lg:px-2"
+    >
+      <i className="uil uil-arrow-up scrollUp__icon text-2xl text-containerColor lg:text-xl"></i>
     </a>
   );
 }

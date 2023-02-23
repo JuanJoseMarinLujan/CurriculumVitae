@@ -1,22 +1,21 @@
 import React from "react";
 
-import { useGlobalContext } from "../../context/GlobalContext";
+import User from "../../Data/Data.json";
 
 function Data() {
-  const { user, home } = useGlobalContext();
   return (
     <div className="col-[1/3] dt:col-auto grid gap-5">
       <div className="flex justify-start items-center">
         <h1 className="text-[2rem] dt:text-5xl">
-          {user.name}{" "}
-          <i class="fa-sharp fa-solid fa-yin-yang text-titleColor text-3xl dt:text-5xl"></i>
+          {User.name}{" "}
+          <i className="fa-sharp fa-solid fa-yin-yang text-titleColor text-2xl dt:text-4xl"></i>
         </h1>
       </div>
       <h3 className="home__subtitle sm:text-md">
-        {home.speciality}
+        {User.home.speciality}
       </h3>
       <p className="max-w-[initial] dt:max-w-[400px] mb-10">
-        {home.description}
+        {User.home.description}
       </p>
       <a href="#contact" className="bttn bttn-flex">
         Escribeme
