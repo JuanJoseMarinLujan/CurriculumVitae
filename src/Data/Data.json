@@ -145,36 +145,42 @@
         "title": "Conecta-2",
         "url": "https://www.youtube.com/watch?v=Ve-QLiwjmLs",
         "category": "Sonido",
+        "tools": "Ableton Live - Native Intruments - Waves",
         "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2FConecta2.jpg?alt=media&token=ef3acd94-30eb-484c-8dc1-65d31d431767"
       },
       {
         "title": "69 Store",
         "url": "https://juanjosemarinlujan.github.io/69Store",
         "category": "Web",
+        "tools": "ReactJS - Taildwind - Firebase",
         "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2F69Store.jpg?alt=media&token=03596e97-0c84-4f6f-9702-26e3d3f86ce3"
       },
       {
         "title": "Manage Web",
         "url": "https://juanjosemarinlujan.github.io/Manage",
         "category": "Web",
+        "tools": "Html - Css",
         "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork1.jpg?alt=media&token=d3456b26-b01d-4bf2-a2ce-406be4d73daf"
       },
       {
         "title": "Time Tacking Dashboard",
         "url": "https://juanjosemarinlujan.github.io/TimeTackingDashboard",
         "category": "Web",
+        "tools": "Html - Css",
         "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork2.jpg?alt=media&token=8810c152-b60d-4c1e-b18b-f65805880dfc"
       },
       {
         "title": "Calculadora Web",
         "url": "https://juanjosemarinlujan.github.io/Calculadora1",
         "category": "Web",
+        "tools": "Html - Saas - Javascript",
         "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork3.jpg?alt=media&token=719f8ae6-d718-41e7-b151-01992ec4b0cd"
       },
       {
         "title": "To Do Web",
         "url": "https://juanjosemarinlujan.github.io/To-Do1",
         "category": "Web",
+        "tools": "ReactJS - Taildwind",
         "img": "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/portfolio%2Fwork4.jpg?alt=media&token=c6f535ee-2c65-43b5-9d4a-98cd9a07f51b"
       }
     ]
