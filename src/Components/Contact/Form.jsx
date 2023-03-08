@@ -7,7 +7,6 @@ function Form() {
   const form = useRef();
 
   const onSubmit = (data) => {
-    console.log(data);
     emailjs
       .sendForm(
         "service_2lyu08s",
@@ -26,18 +25,18 @@ function Form() {
     reset();
   };
   return (
-    <div className="contact__content">
-      <h3 className="contact__title text-center text-xl font-medium mb-6">
+    <div>
+      <h3 className="text-center text-xl font-medium mb-6">
         Escríbeme un email
       </h3>
 
       <form
         ref={form}
         onSubmit={handleSubmit(onSubmit)}
-        className="contact__form w-full mt-0 mx-auto lg:w-96"
+        className=" min-w-[300px] mt-0 mx-auto lg:w-96"
       >
-        <div className="contact__form-div relative mb-8 h-16">
-          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
+        <div className="relative mb-8 h-16">
+          <label className="absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
             Nombre
           </label>
           <input
@@ -53,8 +52,8 @@ function Form() {
           />
         </div>
 
-        <div className="contact__form-div relative mb-8 h-16">
-          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
+        <div className="relative mb-8 h-16">
+          <label className="absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
             Email
           </label>
           <input
@@ -74,8 +73,8 @@ function Form() {
           />
         </div>
 
-        <div className="contact__form-div relative mb-8 contact_form-area h-44 ">
-          <label className="contact__form-tag absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
+        <div className="relative mb-8 contact_form-area h-44 ">
+          <label className="absolute -top-3 left-5 text-xs p-1 bg-bodyColor z-10">
             Mensaje
           </label>
           <textarea

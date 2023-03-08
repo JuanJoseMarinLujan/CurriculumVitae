@@ -4,18 +4,18 @@ import User from "../../Data/Data.json";
 
 function Chats() {
   return (
-    <div className="contact__content">
-      <h3 className="contact__title text-center text-xl font-medium mb-6">
+    <div>
+      <h3 className="text-center text-xl font-medium mb-6">
         Mensaje via
       </h3>
 
-      <div className="contact__info grid grid-cols-[1fr] lg:grid-cols-[300px] gap-y-12 lg:gap-y-6 justify-center">
+      <div className="grid grid-cols-[1fr] lg:grid-cols-[300px] gap-y-5 lg:gap-y-6 justify-center">
         <div className="contact__card bg-containerColor p-4 rounded-xl text-center">
           <i className="bx bxl-whatsapp contact__card-icon text-4xl text-titleColor mb-1 hover:text-[#25d366]"></i>
           <h3 className="contact__card-title text-sm mb-3 hover:text-[#25d366]">
             WhatsApp
           </h3>
-          <span className="contact__card-data block text-sm mb-3 hover:text-[#25d366]">
+          <span className="block text-sm mb-3 hover:text-[#25d366]">
             {User.contact.whatsapp.phone}
           </span>
           <a
@@ -33,7 +33,7 @@ function Chats() {
           <h3 className="contact__card-title text-sm mb-3 hover:text-[#006AFF]">
             Messenger
           </h3>
-          <span className="contact__card-data block text-sm mb-3 hover:text-[#006AFF]">
+          <span className="block text-sm mb-3 hover:text-[#006AFF]">
             {User.contact.messenger.username}
           </span>
           <a

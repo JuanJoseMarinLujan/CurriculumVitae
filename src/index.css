@@ -39,7 +39,7 @@
 @layer components {
   /*=============== REUSABLE CSS CLASSES ===============*/
   .sctn {
-    @apply w-full pt-28 pb-8 px-4 flex flex-col justify-center items-center;
+    @apply w-full pt-28 pb-8 px-4 flex flex-col;
   }
   .sctn-title {
     @apply text-4xl text-titleColor;

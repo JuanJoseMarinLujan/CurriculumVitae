@@ -10,7 +10,7 @@ function Contact() {
         <span className="text-sm">Escribeme</span>
       </div>
 
-      <div className="cntnr grid gap-x-12 lg:gap-x-24 pb-12 lg:grid-cols-2 justify-center">
+      <div className="cntnr grid gap-y-12 pb-12 lg:grid-cols-2">
         <Chats />
         <Form />
       </div>

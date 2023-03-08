@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="main">
+      <main className="-mr-[11px]">
         <Home />
         <About />
         <Skills />

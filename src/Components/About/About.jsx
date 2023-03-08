@@ -12,7 +12,7 @@ function About() {
           <span className="text-xs">Introducción</span>
         </div>
 
-        <div className="flex flex-col dt:flex-row dt:gap-2 justify-around">
+        <div className="flex flex-col dt:flex-row dt:gap-20 justify-center items-center">
           <img
             src={User.about.img}
             alt=""
@@ -21,9 +21,14 @@ function About() {
           />
           <div className="flex flex-col items-center dt:items-start w-full max-w-md">
             <Info />
-            <p className="text-base text-center dt:text-justify my-2">
-              {User.about.description}
-            </p>
+            <div>
+              <p className="text-base text-center dt:text-justify my-2">
+                {User.about.description1}
+              </p>
+              <p className="text-base text-center dt:text-justify my-2">
+                {User.about.description2}
+              </p>
+            </div>
             <a
               href={User.about.curriculumvitae}
               target="_blank"

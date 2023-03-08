@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsCard = ({ item }) => {
   return (
-    <div className="skills__content bg-containerColor grid p-6 lg:py-8 lg:pb-16 rounded-2xl">
+    <div className="skills__content max-w-sm min-w-[340px] lg:min-w-[300px] dt:min-w-[350px] bg-containerColor grid p-6 lg:py-8 lg:pb-16 rounded-2xl mx-auto">
       <h3 className="text-center text-xl font-semibold mb-3">{item.title}</h3>
       <div className="grid justify-center items-start">
         <div className="w-full grid grid-cols-2 gap-x-10 gap-4 items-start">
