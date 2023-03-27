@@ -62,7 +62,7 @@
     @apply inline-block bg-titleColor text-containerColor py-5 px-8 font-medium;
   }
   .bttn:hover {
-    @apply bg-titleDarkColor;
+    @apply bg-titleDarkColor duration-[750ms];
   }
   .bttn-flex {
     @apply w-44 h-14 inline-flex justify-between items-center rounded-2xl;
@@ -105,6 +105,12 @@
   animation: profile__animate 8s ease-in-out infinite 1s;
   border: solid 9px rgba(8, 8, 8, 0.655);
   box-shadow: inset 0 0 0 8px rgba(8, 8, 8, 0.655);
+}
+.home__img:hover {
+  transition: 1s;
+  animation: profile__animate 20s ease-in-out infinite 20s;
+  border: solid 9px #d9cdbf;
+  box-shadow: inset 0 0 0 8px #d9cdbf;
 }
 
 .wheel {

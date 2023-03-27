@@ -2,7 +2,7 @@ import React from "react";
 
 import SkillsCard from "./SkillsCard";
 
-import User from "../../Data/Data.json";
+import { Data as User } from "../../Data/Data.js";
 
 function Skills() {
 

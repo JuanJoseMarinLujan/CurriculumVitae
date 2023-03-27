@@ -3,7 +3,7 @@ import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "../Scrolls/ScrollDown";
 
-import User from "../../Data/Data.json";
+import { Data as User } from "../../Data/Data.js";
 
 function Home() {
   return (

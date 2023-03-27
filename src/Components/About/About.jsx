@@ -1,7 +1,7 @@
 import React from "react";
 import Info from "./Info";
 
-import User from "../../Data/Data.json";
+import { Data as User } from "../../Data/Data.js";
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
           <span className="text-xs">Introducción</span>
         </div>
 
-        <div className="flex flex-col dt:flex-row dt:gap-20 justify-center items-center">
+        <div className="flex flex-col dt:flex-row dt:gap-20 justify-center items-start">
           <img
             src={User.about.img}
             alt=""

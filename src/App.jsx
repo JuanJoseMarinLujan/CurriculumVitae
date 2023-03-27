@@ -10,8 +10,6 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer";
 import ScrollUp from "./Components/Scrolls/ScrollUp";
 
-import "./App.css";
-
 function App() {
   return (
     <>

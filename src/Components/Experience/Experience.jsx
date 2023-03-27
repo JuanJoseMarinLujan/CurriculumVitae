@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Education from "./Education.jsx";
 import Labour from "./Labour.jsx";
 
-import User from "../../Data/Data.json";
+import { Data as User } from "../../Data/Data.js";
 
 function Experience() {
   const [toggleState, setToggleState] = useState(0);

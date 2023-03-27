@@ -1,6 +1,6 @@
 import React from "react";
 
-import User from "../../Data/Data.json";
+import { Data as User } from "../../Data/Data.js";
 
 function Info() {
   return (

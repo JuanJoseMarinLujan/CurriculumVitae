@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     colors: {
       titleColor: "#333333",
-      titleDarkColor: "#000000",
+      titleDarkColor: "#d9cdbf",
       textColor: "#757575",
       bodyColor: "#FAFAFA",
       containerColor: "#FFFFFF",
@@ -17,13 +17,13 @@ module.exports = {
     },
     screens: {
       sm: "351px",
-      // => @media (min-width: 640px) { ... }
+      // => @media (min-width: 351px) { ... }
       md: "577px",
-      // => @media (min-width: 640px) { ... }
+      // => @media (min-width: 577px) { ... }
       lg: "769px",
-      // => @media (min-width: 640px) { ... }
+      // => @media (min-width: 769px) { ... }
       dt: "993px",
-      // => @media (min-width: 1280px) { ... }
+      // => @media (min-width: 993px) { ... }
     },
     extend: {
       keyframes: {
@@ -31,10 +31,10 @@ module.exports = {
           "0%": { transform: "translateY(0)" },
           "30%": { transform: "translateY(3.75rem)" },
         },
-        profileAnimate : {
+        profileAnimate: {
           "0%": { rounded: "100% 40% 30% 70%/60% 30% 70% 40%" },
           "50%": { rounded: "30% 60% 70% 40%/50% 60% 30% 60%" },
-          "100%": { rounded: "100% 40% 30% 70%/60% 30% 70% 40%" }
+          "100%": { rounded: "100% 40% 30% 70%/60% 30% 70% 40%" },
         },
       },
     },
