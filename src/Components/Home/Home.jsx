@@ -7,7 +7,7 @@ import { Data as User } from "../../Data/Data.js";
 
 function Home() {
   return (
-    <section className="sctn" id="home">
+    <section className="sctn" id="Inicio">
       <div className="cntnr grid">
         <div className="grid gap-5 grid-cols-[0.5fr_3fr] lg:grid-cols-[100px_repeat(2,_1fr)] dt:grid-cols-[116px_repeat(2,_1fr)] place-content-center gap-x-5 dt:gap-x-8 items-center p-5 lg:mb-10">
           <Social />

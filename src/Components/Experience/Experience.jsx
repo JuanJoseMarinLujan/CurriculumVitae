@@ -9,10 +9,10 @@ function Experience() {
   const [toggleState, setToggleState] = useState(0);
 
   return (
-    <section className="experience sctn" id="experience">
+    <section className="experience sctn" id="Experiencia">
       <div className=" flex flex-col items-center mb-5">
         <h2 className="section__title">Experiencia</h2>
-        <span className="section__subtitle text-sm">Logros personales</span>
+        <span className="section__subtitle text-sm">Mi línea de tiempo</span>
       </div>
 
       <div className="experience__container cntnr w-full flex flex-col justify-center items-center">

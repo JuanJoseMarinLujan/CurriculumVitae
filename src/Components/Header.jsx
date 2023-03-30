@@ -30,11 +30,11 @@ function Header() {
           <ul className="nav__list grid gap-6 lg:flex lg:gap-x-6 grid-cols-3 lg:grid-cols-1 md:gap-8">
             <li className="nav__item">
               <a
-                href="#home"
+                href="#Inicio"
                 className={`${
-                  activeNav === "#home" ? "active-link text-titleDarkColor" : ""
+                  activeNav === "#Inicio" ? "active-link text-titleDarkColor" : ""
                 } flex flex-col items-center text-sm text-titleColor font-medium duration-[3000ms] hover:text-titleDarkColor`}
-                onClick={() => setActiveNav("#home")}
+                onClick={() => setActiveNav("#Inicio")}
               >
                 <i className="uil uil-estate nav__icon block text-2xl lg:hidden"></i>
                 Inicio
@@ -43,13 +43,13 @@ function Header() {
 
             <li className="nav__item">
               <a
-                href="#about"
+                href="#Sobre"
                 className={`${
-                  activeNav === "#about"
+                  activeNav === "#Sobre"
                     ? "active-link text-titleDarkColor "
                     : ""
                 } flex flex-col items-center text-sm text-titleColor font-medium duration-[3000ms]`}
-                onClick={() => setActiveNav("#about")}
+                onClick={() => setActiveNav("#Sobre")}
               >
                 <i className="uil uil-user nav__icon block text-2xl lg:hidden"></i>
                 Sobre
@@ -58,13 +58,13 @@ function Header() {
 
             <li className="nav__item">
               <a
-                href="#skills"
+                href="#Habilidades"
                 className={`${
-                  activeNav === "#skills"
+                  activeNav === "#Habilidades"
                     ? "active-link text-titleDarkColor"
                     : ""
                 } flex flex-col items-center text-sm text-titleColor font-medium duration-[3000ms]`}
-                onClick={() => setActiveNav("#skills")}
+                onClick={() => setActiveNav("#Habilidades")}
               >
                 <i className="uil uil-file-alt nav__icon block text-2xl lg:hidden"></i>
                 Habilidades
@@ -73,13 +73,13 @@ function Header() {
 
             <li className="nav__item">
               <a
-                href="#experience"
+                href="#Experiencia"
                 className={`${
-                  activeNav === "#experience"
+                  activeNav === "#Experiencia"
                     ? "active-link text-titleDarkColor"
                     : ""
                 } flex flex-col items-center text-sm text-titleColor font-medium duration-[3000ms]`}
-                onClick={() => setActiveNav("#experience")}
+                onClick={() => setActiveNav("#Experiencia")}
               >
                 <i className="uil uil-file-alt nav__icon block text-2xl lg:hidden"></i>
                 Experiencia
@@ -88,13 +88,28 @@ function Header() {
 
             <li className="nav__item">
               <a
-                href="#portfolio"
+                href="#Logros"
                 className={`${
-                  activeNav === "#portfolio"
+                  activeNav === "#Logros"
                     ? "active-link text-titleDarkColor"
                     : ""
                 } flex flex-col items-center text-sm text-titleColor font-medium duration-[3000ms]`}
-                onClick={() => setActiveNav("#portfolio")}
+                onClick={() => setActiveNav("#Logros")}
+              >
+                <i className="uil uil-file-alt nav__icon block text-2xl lg:hidden"></i>
+                Logros
+              </a>
+            </li>
+
+            <li className="nav__item">
+              <a
+                href="#Portafolio"
+                className={`${
+                  activeNav === "#Portafolio"
+                    ? "active-link text-titleDarkColor"
+                    : ""
+                } flex flex-col items-center text-sm text-titleColor font-medium duration-[3000ms]`}
+                onClick={() => setActiveNav("#Portafolio")}
               >
                 <i className="uil uil-scenery nav__icon block text-2xl lg:hidden"></i>
                 Portafolio
@@ -103,13 +118,13 @@ function Header() {
 
             <li className="nav__item">
               <a
-                href="#contact"
+                href="#Contacto"
                 className={`${
-                  activeNav === "#contact"
+                  activeNav === "#Contacto"
                     ? "active-link text-titleDarkColor"
                     : ""
                 } flex flex-col items-center text-sm text-titleColor font-medium duration-[3000ms]`}
-                onClick={() => setActiveNav("#contact")}
+                onClick={() => setActiveNav("#Contacto")}
               >
                 <i className="uil uil-message nav__icon block text-2xl lg:hidden"></i>
                 Contacto

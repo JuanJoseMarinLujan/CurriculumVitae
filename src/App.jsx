@@ -9,6 +9,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer";
 import ScrollUp from "./Components/Scrolls/ScrollUp";
+import Achievements from "./Components/Achievements/Achievements";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Skills />
         <Experience />
+        <Achievements />
         <Portfolio />
         <Contact />
       </main>

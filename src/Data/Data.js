@@ -2,11 +2,23 @@ import CV from "./Documents/Curriculum_Vitae.pdf";
 import Profile from "./Images/Profile.jpg";
 
 /* ---- PORTAFOLIO IMAGENES ---- */
-import Conecta2 from "./Images/Conecta2.jpg";
-import RYD_Booking from "./Images/RYD_Booking.jpg";
-import Store69 from "./Images/69Store.jpg";
-import CalculadoraJS from "./Images/CalculadoraJS.jpg";
-import Manage from "./Images/Manage.jpg";
+import Conecta2 from "./Images/Portfolio/Conecta2.jpg";
+import RYD_Booking from "./Images/Portfolio/RYD_Booking.jpg";
+import Store69 from "./Images/Portfolio/69Store.jpg";
+import CalculadoraJS from "./Images/Portfolio/CalculadoraJS.jpg";
+import Manage from "./Images/Portfolio/Manage.jpg";
+
+/* ---- ACHIEVEMENTS IMAGENES ---- */
+import DP from "./Images/Achievements/DesarrolladorProfesional.jpg";
+import RJS from "./Images/Achievements/ReactJS.jpg";
+import JS from "./Images/Achievements/JavaScript.jpg";
+import OSS from "./Images/Achievements/OptimizacionSistemasDeSonido.jpg";
+import RX from "./Images/Achievements/IzotopeRX.jpg";
+import IM from "./Images/Achievements/TecnicasIngenierosMonitores.jpg";
+import MO from "./Images/Achievements/MezclaOnline.jpg";
+import GTR from "./Images/Achievements/GrabacionProduccionDeGuitarras.jpg";
+import MD from "./Images/Achievements/MarketingDigital.jpg";
+
 
 export const Data = {
   name: "Juan Jose Marin Lujan",
@@ -24,12 +36,12 @@ export const Data = {
     img: Profile,
     expDeveloper: "0 Año",
     expSound: "2+ Año",
-    projects: "1+",
     description1:
       "Tecnólogo en Informática Musical, formado integralmente para intervenir la música desde la perspectiva del lenguaje musical, para la creación, producción, procesamiento (análogo y digital) y difusión del sonido, en el contexto de la comunicación artística del espectáculo.",
     description2:
       "Desarrollador tecnológico certificado, graduado de Digital House con conocimientos avanzados en Full Stack, además de demostrar muy buenas habilidades de liderazgo, comunicación y trabajo en equipo, enfocado en asumir nuevos retos que me permitan evolucionar mis habilidades y perfil profesional, fiel apasionado de la tecnología y la música.",
-    curriculumvitae: CV,
+    curriculumvitae:
+      "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Curr%C3%ADculum%20Vitae.pdf?alt=media&token=6d61bc4c-9745-4d6a-859c-9996b784f4eb",
   },
   skills: [
     {
@@ -135,14 +147,6 @@ export const Data = {
       type: "labour",
     },
     {
-      university: "Coder House",
-      title: "Desarrollo Web Full Stack",
-      initialyear: "2022",
-      finalyear: "2023",
-      city: "Argentina",
-      type: "education",
-    },
-    {
       university: "Digital House",
       title: "Certified Tech Developer",
       initialyear: "2022",
@@ -151,6 +155,74 @@ export const Data = {
       type: "education",
     },
   ],
+  achievements: {
+    categorys: ["Desarrollo", "Sonido"],
+    items: [
+      {
+        title: "Desarrollador Profesional",
+        university: "Digital House",
+        issued: "Marzo - 2023",
+        image: DP,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FDesarrolladorProfesional.pdf?alt=media&token=3cd4b8e4-eb61-4cb2-b43f-098e6dd8be94",
+      },
+      {
+        title: "Curso ReactJS",
+        university: "Coder House",
+        issued: "Enero - 2023",
+        image: RJS,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FReactJS.pdf?alt=media&token=73cf3f5e-6a62-4693-a94e-53d452e2f1c2",
+      },
+      {
+        title: "Curso JavaScript",
+        university: "Coder House",
+        issued: "Octubre - 2022",
+        image: JS,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FJavaScript.pdf?alt=media&token=248fdbdc-a46c-47b8-9f9b-448ecd96f59c",
+      },
+      {
+        title: "Optimisación de Sistemas de Sonido",
+        university: "Instituto Ene Audio",
+        issued: "Abril - 2020",
+        image: OSS,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FOptimizacionSistemasDeSonido.pdf?alt=media&token=f3a5f902-5235-4cac-8c65-20509019c4b8",
+      },
+      {
+        title: "Limpieza de Audio en Izotope RX",
+        university: "Instituto Ene Audio",
+        issued: "Abril - 2020",
+        image: RX,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FIzotopeRX.pdf?alt=media&token=e68831f4-dabf-44e6-b0d3-3070908796f0",
+      },
+      {
+        title: "Tecnicas Aplicadas para Ingenieros de Monitores",
+        university: "Instituto Ene Audio",
+        issued: "Abril - 2020",
+        image: IM,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FTecnicasDeMonitores.pdf?alt=media&token=f8f2f85d-4f03-4ae1-b616-9b7c0a25e8fe",
+      },
+      {
+        title: "Clase Magistral de Mezcla Online",
+        university: "Instituto Ene Audio",
+        issued: "Mayo - 2020",
+        image: MO,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FMezclaOnline.pdf?alt=media&token=1ba18bbc-3c1c-4f4d-a1e2-be1f91a2bda1",
+      },
+      {
+        title: "Clase Magistral de Grabación y Producción de Guitarras",
+        university: "Instituto Ene Audio",
+        issued: "Mayo - 2020",
+        image: GTR,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FGrabacionProduccionGuitarras.pdf?alt=media&token=7e60e715-7543-4456-a469-ba57b445598a",
+      },
+      {
+        title: "Marketing Digital",
+        university: "MDALatam",
+        issued: "Diciembre - 2021",
+        image: MD,
+        credential: "https://firebasestorage.googleapis.com/v0/b/curriculumvitae-jjml.appspot.com/o/Achievements%2FMarketing%20Digital.pdf?alt=media&token=1d1da8cf-7200-4d1a-88c7-46e8e3040f26",
+      },
+    ],
+  },
   portfolio: {
     categorys: ["Todo", "Frontend", "Backend", "Sonido"],
     projects: [

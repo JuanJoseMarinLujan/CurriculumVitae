@@ -5,11 +5,11 @@ import { Data as User } from "../../Data/Data.js";
 
 function About() {
   return (
-    <section id="about" className="sctn">
+    <section id="Sobre" className="sctn">
       <div className="cntnr grid">
         <div className=" flex flex-col items-center mb-4">
           <h2>Sobre mi</h2>
-          <span className="text-xs">Introducción</span>
+          <span className="text-sm">Introducción</span>
         </div>
 
         <div className="flex flex-col dt:flex-row dt:gap-20 justify-center items-start">

@@ -45,7 +45,7 @@ function Works() {
           );
         })}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-[max-content] lg:grid-cols-[repeat(2,_max-content)] dt:grid-cols-[repeat(3,_max-content)] gap-5 lg:gap-12 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-[max-content] lg:grid-cols-[repeat(2,_max-content)] dt:grid-cols-[repeat(3,_max-content)] gap-5 justify-center items-center">
         {projects.map((item, index) => {
           return <WorkCard key={index} item={item} />;
         })}

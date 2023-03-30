@@ -26,12 +26,12 @@ function Info() {
       </div>
 
       <div className="about__box bg-containerColor w-36 h-28 p-2 rounded-2xl grid m-auto">
-        <i className="bx bx-briefcase-alt about__icon text-2xl text-titleColor text-center"></i>
+        <i className="bx bx-badge-check about__icon text-2xl text-titleColor text-center"></i>
         <h3 className="about__title text-sm font-normal text-center">
-          Proyectos
+          Logros
         </h3>
         <span className="about__subtitle text-xs text-center">
-          {User.about.projects}
+          {User.achievements.items.length}
         </span>
       </div>
     </div>

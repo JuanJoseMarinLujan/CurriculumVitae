@@ -4,7 +4,7 @@ import Form from "./Form";
 
 function Contact() {
   return (
-    <section className="contact sctn" id="contact">
+    <section className="contact sctn" id="Contacto">
       <div className=" flex flex-col items-center mb-4">
         <h2 className="">Contactarme</h2>
         <span className="text-sm">Escribeme</span>

@@ -7,9 +7,9 @@ import { Data as User } from "../../Data/Data.js";
 function Skills() {
 
   return (
-    <section className="sctn" id="skills">
+    <section className="sctn" id="Habilidades">
       <div className=" flex flex-col items-center mb-4">
-        <h2 className="">Habilidades</h2>
+        <h2>Habilidades</h2>
         <span className="text-sm">Mi nivel tecnico</span>
       </div>
 

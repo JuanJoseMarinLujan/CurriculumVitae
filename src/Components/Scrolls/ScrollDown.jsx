@@ -4,7 +4,7 @@ function ScrollDown() {
   return (
     <div className="home__scroll hidden lg:flex lg:ml-4 dt:ml-40">
       <a
-        href="#about"
+        href="#Sobre"
         className="home__scroll-button flex justify-center items-center"
       >
         <svg
